@@ -1,4 +1,4 @@
-bmi-calculator
-==============
+HasuMed bmi-calculator
+======================
 
-free online body mass index calculator for use in third party sites
+Free online body mass index calculator for use in third party sites.
