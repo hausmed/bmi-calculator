@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BMI Calculator Demo</title>
+  <style type="text/css">
+    #sidebar {
+      float:left;
+      width:30%;
+    }
+    #main {
+      float:left;
+      width:69%;
+    }
+    ul {
+      list-type:none;
+    }
+  </style>
+  <link href="http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.css" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.js"></script>
+</head>
+<body onload="prettyPrint()">
+  <div id="sidebar">
+    <div id="hmBMI">
+    </div>
+    <ul>
+      <li>
+        <a href="http://www.hausmed.de">HausMed im Netz</a>
+        <a href="https://github.com/hausmed">GitHub</a>
+      </li>
+    </ul>
+  </div>
+  <div id="main">
+    <h1>BMI-Demo</h1>
+    <h2>Einbindung</h2>
+    <p>
+      Legen Sie einfach auf Ihrer Seite an der Stelle, wo die Einbindung erfolgen soll einen Div-Tag mit der ID "bmBMI" an:
+    </p>
+    <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;color:black;background:white;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007000">&lt;div</span> <span style="color: #0000C0">id=</span><span style="background-color: #fff0f0">&quot;hmBMI&quot;</span><span style="color: #007000">&gt;&lt;/div&gt;</span>
+    </pre></div>
+    <p>
+      Am Ende des Dokumentes, am besten vor dem schließenden <pre>body</pre>-Tag muss dann noch ein Script eingebunden werden:
+    </p>
+    
+  </div>
+  <script type="text/javascript" src="hm-bmi-calc.compressed.js"></script>
+</body>
+</html>
